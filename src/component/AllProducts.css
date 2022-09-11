@@ -1,0 +1,57 @@
+.div1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* .div1>div{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    margin: 20px;
+} */
+html{
+    font-size: 62.5%;
+}
+.singleProduct{
+    
+    width: 20rem;
+    height: 22.5rem;
+    margin: 2rem;
+}
+.singleProduct>img{
+    width: 100%;
+    max-width: 20rem;
+    height: 15rem;
+}
+
+.div2>button{
+    
+    padding: 0.5rem;
+}
+.div2>p{
+    font-size: 1.5rem;
+}
+.div2>span{
+    font-size: 1.5rem;
+}
+.div4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start
+}
+
+.productCart{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+    height: 20rem;
+   
+    
+}
+
+.productCart>img{
+    width: 20rem;
+    height:15rem;
+}
